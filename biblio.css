@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Montserrat:300,300i,400,400i,700,700i,900|Open+Sans+Condensed:300,700');
+
+#bandeau{
+	background-image: url(images/bandeau.jpg);
+	background-size: contain;
+	padding-top: 15px;
+	padding-bottom : 0px; 
+}
+
+body{
+	margin : 0px;
+	background-image: url(images/fond.jpg);
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+
+.titre , .livrep h1, .categorie >header > h1, .categorie > a > header > h1, .emprunt > h1{
+	width : 450px;
+	background-color: antiquewhite;
+	text-align: center;
+	margin : 0px auto;
+	padding: 10px;
+	font-family : Montserrat, sans-serif;
+}
+
+#bandeau h1{
+	font-size: 2em;
+}
+#bandeau p{
+	color : blue;
+	font-style: italic;
+}
+
+.menu {
+	width : 80%;
+	background-color: burlywood;
+	margin : 0px auto; 
+	margin-top : 10px;
+}
+
+.menu a{
+	box-sizing: border-box;
+	display: inline-block;
+	width : 25%;
+	background-color: dodgerblue;
+	padding : 3px;
+	margin : 0px;
+	text-align: center;
+	}
+
+.menu a, .menu a:visited{
+	color : blueviolet;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background-color: coral;
+}
+
+.main{
+	width : 80%;
+	margin : 0px auto;
+	background-color: antiquewhite;
+}
+
+.info {
+	margin : 0px;
+	float: left;
+	box-sizing: border-box;
+	font-family: Lato;
+	width : 20%;
+	padding : 0px 5px;
+}
+.info iframe{
+	width : 95%;
+}
+
+.infoul span{
+	font-weight : bold;
+	font-size: 1em;
+	color : black;
+}
+
+.info ul{
+	margin : 0px;
+	padding : 2px;
+	list-style-type: none;
+}
+.info li{
+	color : dodgerblue;
+}
+.horaire li{
+	font-style: italic;
+	
+}
+
+.accueil h3 {
+	margin-top : 0px;
+	margin-bottom : 2px;
+	font-family: Lato, Montserrat, sans-serif;
+	padding : 0px 5px;
+}
+.accueil{
+	box-sizing: border-box;
+	margin : 0px;
+	width : 80%;
+	margin-left : 20%;
+}
+
+.accueil header{
+	background-color: burlywood;
+	text-align: center;
+	width : 70%;
+	margin : auto;
+	margin-bottom : 20px;
+}
+
+.accueil  header p{
+	color : dodgerblue;
+	margin : 2px;
+}
+
+.livre{
+	display : inline-block;
+	box-sizing: border-box;
+	width : 32%;
+	margin : 0px;
+	vertical-align: top;
+}
+
+.livre a{
+	display : inline-block;
+	width : 45%;
+	float : left;
+}
+.livre a img{
+	width : 95%;
+}
+.livreaside{
+	box-sizing: border-box;
+	width : 54%;
+	margin : 0px;
+	padding : 2px;
+	margin-left : 45%;
+}
+.livreaside ul{
+	margin : 0px;
+	padding: 2px;
+	list-style-type: none;
+}
+.livreaside img{
+	width :60%;
+	margin : 0px;
+}
+
+.livreaside li{
+	font-family: 'Open Sans Condensed', Montserrat,sans-serif;
+}
+.ltitre{
+	background-color: dodgerblue;
+	font-weight: 700;
+}
+
+.ldate{
+	font-style : italic;
+}
+
+.retour img{
+	width : 40px;
+}
+.retour{
+	position : absolute;
+	bottom : 20px;
+	right : 20px;
+}
+
+.social{
+	padding : 0px;
+	margin : 0px;
+	
+}
+
+.livrep, .emprunt{
+	width : 80%;
+	margin : 0px auto;
+	padding : 20px;
+}
+
+.livrep h1 , .emprunt h1{
+	background-color : coral;
+	box-shadow: 5px 5px lightgrey;
+	margin : 0px auto 20px; 
+}
+
+.livrep > img{
+	box-sizing: border-box;
+	width : 45%;
+	float : left;
+}
+
+.livrep aside, article[class=resume]{
+	width : 50%;
+	margin-left: 48%;
+}
+
+.avis{
+	clear: both;
+	padding : 20px 0px;
+}
+
+.avis h3, .resume h3 , .categorie h3{
+	background-color: burlywood;
+	color: dodgerblue;
+	font-family: MontSerrat, Lato, sans-serif;
+	font-weight: 700;
+	padding : 5px 20px;
+}
+
+.avis p, article[class=resume] p {
+	font-family: Lato, sans-serif;
+	color: dimgray;
+}
+
+.avis header{
+	font-style: italic;
+	font-family: Lato, sans-serif;
+	color: dodgerblue;
+}
+.avis footer{
+	text-align: right;
+	color : brown;
+}
+
+.livrep aside ul, .categorie ul, .emprunt ul {
+	padding : 2px;
+	list-style-type: none;
+}
+
+.livrep aside li, .categorie p, .emprunt ul li{
+	font-family: Lato, sans-serif;
+	color : dimgray;
+}
+
+.livrep aside li span , .emprunt ul label{
+	font-weight: 700;
+	color: darkblue;
+	display:table-cell;
+}
+
+.emprunt ul label {
+	display : inline-block;
+	width : 20%;
+	margin : 10px 0px;
+	vertical-align: top;
+}
+.bouton{
+	margin-left : 20%;
+	margin-top : 3%;
+}
+
+.emprunt ul {
+	margin-left: 27%;
+}
+.boutique a{
+	display : inline-block;
+	box-sizing: border-box;
+	width : 25%; 
+	height : 50px;
+	color : dodgerblue;
+	text-decoration: none;
+}
+.boutique img{
+	height : 50px;
+	display : block;
+}
+
+.categorie {
+	width : 70%;
+	margin : 0px auto;
+}
+.categorie > header, .categorie > a> header{
+	background-image: url(images/SF.jpg);
+	background-size: cover;
+	box-sizing: border-box;
+	height: 200px;
+	padding-top : 40px;
+}
+
+.categorie li{
+	height : 120px;
+	padding: 10px 20px;
+	font-family: Lato, sans-serif;
+}
+.categorie li:nth-child(2n){
+	background-color: lightgrey;
+}
+
+.categorie li:nth-child(2n) img{
+	float : left;
+	height : 100px;
+}
+
+.categorie li:nth-child(2n+1) img{
+	float : right;
+	height : 100px;
+}
+
+.categorie li:nth-child(2n) p{
+	margin-left : 100px;
+}
+.categorie p span {
+	font-weight : 700;
+	color : cornflowerblue;
+}
+
+.categorie a, .categorie a:visited{
+	text-decoration: none;
+	
+}
+#policier{
+	background-image: url(images/policier.jpg);
+}
+
+#fantasy{
+	background-image: url(images/fantasy.jpg);
+}
+
+.social{
+	width : 54px;
+	position : fixed;
+	top : 200px;
+	left :10px;
+	text-align: center;
+}
+.social ul{
+	list-style-type: none;
+	background-color: white;
+	padding: 0px;
+	margin: px;
+}
+
+.social img{
+	width : 50px;
+}
+.retour{
+	position : fixed;
+	bottom : 30px;
+	right : 30px;
+}
+
+.emprunt legend{
+	font-family : 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	color:dodgerblue;
+}
+
+.main footer{
+	text-align: center;
+	font-family: Raleway;
+}
+.main footer img{
+	width : 1.5em;
+}
+.main footer a{
+	text-decoration: none;
+}

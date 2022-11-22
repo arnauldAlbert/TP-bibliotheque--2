@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Ma Bibliothèque </title>
+		<meta charset="utf-8"/>
+		<meta author="arnauld ALBERT"/>	
+		<link href="biblio.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<a class=retour href="#"> <img src="images/fleche.jpg" /></a>
+		<aside class="social">
+		<ul >
+		<li><a href="#"> <img src="images/facebook.jpg"/></a></li>
+			<li><a href="#"> <img src="images/instagram.jpg"/></a></li>
+			<li><a href="#"> <img src="images/google.jpg"/></a></li>
+			<li><a href="#"> <img src="images/twitter.jpg"/></a></li>
+		</ul>
+			</aside>
+		<header id="bandeau">
+			<h1 class="titre"> l'antre de la SF </h1>
+			<p class="titre"> une bibliothèque des classiques de la science fiction </p>
+			<nav class="menu">
+				<a href="index.html"> accueil </a><a href="listecategorie.html"> catégories </a><a href="emprunt.html"> emprunt </a><a href="ajout.html"> ajout </a>
+			</nav>
+		</header>
+		<div class="main">
+			<section class="emprunt"> 
+				<h1> Emprunt d'ouvrage </h1>
+				<form action="traitement.html" method="GET">
+					<ul>
+					<li><label for="nom"> Nom : </label>
+					<input type="text" name="nom"/>	</li>
+					<li><label for="prenom"> Nom : </label>
+					<input type="text" name="prenom"/></li>
+					<li><label for="livre"> Livre emprunté :</label>
+					<select name="livre" mutiple>
+						<option value="1"> 1984 (George Orwell) </option>
+						<option value="2"> les marchands d'armes (A Van Vogt) </option>
+						<option value="3"> Fondation ( Isaac Asimov) </option>
+					</select></li>
+					<li><label for="dateemprunt"> Date d'emprunt : </label>
+						<input type="date" name="dateemprunt" /></li>
+					<li class="bouton"><input type="reset"/> <input type="submit" value="envoyer"/></li>
+					</ul>
+				</form>
+			</section>
+			<footer>
+			Site crée le 12/01/2018 par <a href="mailto:arnauld.albert@uha.fr"> <img src="images/mail.jpg"/> Arnauld ALBERT </a>
+		</footer>
+		</div>
+	</body>
+</html>
